@@ -10,8 +10,12 @@ This repository only holds the **released installers and update packages**.
 | System | File |
 |---|---|
 | Windows 10/11 (64-bit) | [`Clanker-Setup-X.Y.Z.exe`](../../releases/latest) |
-| macOS 14 Sonoma or newer | [`Clanker-mac-X.Y.Z.tar.gz`](../../releases/latest) |
+| Mac with Apple Silicon (M1 or newer), macOS 14+ | [`Clanker-X.Y.Z.dmg`](../../releases/latest) |
+| Mac with Intel, macOS 14+ | [`Clanker-mac-X.Y.Z.tar.gz`](../../releases/latest) |
 | Linux (64-bit x86) | [`Clanker-linux-X.Y.Z.tar.gz`](../../releases/latest) |
+
+**Mac:** open the .dmg and drag Clanker to Applications. The first time, macOS blocks it (the app is not signed by Apple):
+open System Settings > Privacy & Security, scroll down, click **Open Anyway**, then **Open**.
 
 `clanker-app-X.Y.Z.zip` is the update package: an installed Clanker downloads it by itself
 (UX Settings > Updates) and keeps your conversations, memories and settings.
